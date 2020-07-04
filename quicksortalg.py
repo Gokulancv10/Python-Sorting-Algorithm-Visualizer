@@ -1,5 +1,6 @@
 import time
 
+
 def partition(data, head, tail, drawData, timeTick):
     border = head
     pivot = data[tail]
