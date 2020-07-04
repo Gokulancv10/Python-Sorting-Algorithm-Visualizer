@@ -89,6 +89,7 @@ speedScale.grid(row=0, column=2, padx=5, pady=5)
 Button(UI_frame, text="Start", command=StartAlgorithm,bg='red').grid(row=0, column=3, padx=5, pady=5)
 
 
+
 # ROW[1]
 # Label(UI_frame, text='Size', bg='grey').grid(row=1, column=0, padx=5, pady=5, sticky=W)
 sizeEntry = Scale(UI_frame, from_=3, to=25, resolution=1,
