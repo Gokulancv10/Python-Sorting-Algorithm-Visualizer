@@ -1,5 +1,6 @@
 import time
 
+
 def bubble_sort_alg(data, drawData, timeTick):
     for _ in range(len(data)-1):
         for j in range(len(data)-1):
